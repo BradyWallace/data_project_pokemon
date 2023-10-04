@@ -1,6 +1,7 @@
 require "csv"
 require "net/http"
 require "json"
+require "nokogiri"
 
 Type.delete_all
 ActiveRecord::Base.connection.execute("DELETE FROM sqlite_sequence WHERE name='type';")
@@ -17,4 +18,19 @@ types.each do |t|
   puts "Invalid type #{t['name']}" unless type&.valid?
 end
 
+# Seeding Abilities from XML file
+xmlfilename = Rails.root.join("db/abilities.xml")
+puts "Loading Abilities from the XML file: #{xmlfilename}"
+doc = Nokogiri::XML(File.open(xmlfilename))
+doc.xpath("//row").each do |abt|
+  name = abt.at_xpath("name").text
+  description = abt.at_xpath("description").text
+  ability = Ability.create(
+    name:,
+    description:
+  )
+  puts "Invalid ability #{name}" unless ability&.valid?
+end
+
 puts "Created #{Type.count} Types."
+puts "Created #{Ability.count} Abilities."
