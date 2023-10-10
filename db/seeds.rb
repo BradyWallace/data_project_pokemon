@@ -3,14 +3,16 @@ require "net/http"
 require "json"
 require "nokogiri"
 
+PokemonType.delete_all
+ActiveRecord::Base.connection.execute("DELETE FROM sqlite_sequence WHERE name='pokemon_types';")
+PokemonAbility.delete_all
+ActiveRecord::Base.connection.execute("DELETE FROM sqlite_sequence WHERE name='pokemon_abilities';")
 Type.delete_all
 ActiveRecord::Base.connection.execute("DELETE FROM sqlite_sequence WHERE name='types';")
 Ability.delete_all
 ActiveRecord::Base.connection.execute("DELETE FROM sqlite_sequence WHERE name='abilities';")
 Pokemon.delete_all
 ActiveRecord::Base.connection.execute("DELETE FROM sqlite_sequence WHERE name='pokemons';")
-PokemonType.delete_all
-ActiveRecord::Base.connection.execute("DELETE FROM sqlite_sequence WHERE name='pokemon_types';")
 
 # Seeding Types from CSV file
 filename = Rails.root.join("db/types.csv")
@@ -64,12 +66,18 @@ all_pokemon.each do |poke_call|
     type = Type.find_by(name: type_info["type"]["name"])
     PokemonType.create(pokemon:, type:)
   end
-end
 
-# rails g model PokemonType pokemon:references type:references
-# rails g model PokemonAbility pokemon:references ability:references
+  # Seeding pokemon abilities
+  poke_data["abilities"].each do |ability_info|
+    ability_name = ability_info["ability"]["name"].downcase
+    ability_name.sub! "-", " "
+    ability = Ability.find_by(name: ability_name)
+    PokemonAbility.create(pokemon:, ability:)
+  end
+end
 
 puts "Created #{Type.count} Types."
 puts "Created #{Ability.count} Abilities."
 puts "Created #{Pokemon.count} Pokemon."
 puts "Created #{PokemonType.count} Pokemon Types."
+puts "Created #{PokemonAbility.count} Pokemon Abilities."
