@@ -5,6 +5,8 @@ require "nokogiri"
 
 Type.delete_all
 ActiveRecord::Base.connection.execute("DELETE FROM sqlite_sequence WHERE name='type';")
+Ability.delete_all
+ActiveRecord::Base.connection.execute("DELETE FROM sqlite_sequence WHERE name='ability';")
 
 # Seeding Types from CSV file
 filename = Rails.root.join("db/types.csv")
@@ -26,7 +28,7 @@ doc.xpath("//row").each do |abt|
   name = abt.at_xpath("name").text
   description = abt.at_xpath("description").text
   ability = Ability.create(
-    name:,
+    name:        name.downcase,
     description:
   )
   puts "Invalid ability #{name}" unless ability&.valid?
