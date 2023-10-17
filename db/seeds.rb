@@ -3,12 +3,23 @@ require "net/http"
 require "json"
 require "nokogiri"
 
-# 5 tables are being created from 3 sources.
-# The Types table is created from a CSV file, consists of the names of the ~20 Types in the Pokemon series.
-# The Abilities table is created from an XML document, holds the info of the ~200 Abilities in the Pokemon series.
-# The Pokemons table is created from the PokéAPI through 2 API calls, holds the info of the original 151 Pokemon (Gen 1).
-# The PokemonTypes table is created to resolve the many-to-many relationship of pokemon and types.
-# The PokemonAbilities table is created to resolve the many-to-many relationship of pokemon and abilities.
+# Dataset Information
+# -------------------- #
+# Data is pulled from 3 sources:
+# - First generation Pokémon data from pokeapi (https://pokeapi.co/api/v2/generation/1) and (https://pokeapi.co/api/v2/pokemon/{name})
+# - Type data from CSV file using csv library (types.csv)
+# - Ability data from XML file using nokogiri (abilities.xml)
+#
+# 5 Tables required
+# - Pokemons (name, pokedex number) has many Types and Abilities
+# - Types (name) has many Pokemon
+# - Abilities (name, description) has many Pokemon
+# - PokemonTypes (pokemon, type) joiner table
+# - PokemonAbilities (pokemon, ability) joiner table
+#
+# Additional Notes:
+# - Seeding takes 1 - 3 minutes
+# - 151 Pokemons, 20 Types, 191 Abilities, 218 PokemonTypes, 385 PokemonAbilities
 
 PokemonType.delete_all
 ActiveRecord::Base.connection.execute("DELETE FROM sqlite_sequence WHERE name='pokemon_types';")
