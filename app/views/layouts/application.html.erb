@@ -8,9 +8,25 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   </head>
 
   <body>
+    <section class="section">
+    <div class="container m-0">
+      <h1 class="title is-1">First Generation Pokemon</h1>
+      <p><%= link_to "Home", root_path %> | <%= link_to "About", "about" %></p>
+    </div>
+    <hr>
     <%= yield %>
+  </section>
+  <% if controller_name == 'home' %>
+    <footer class="pl-5">
+      <hr>
+      <p><em>It's good to be home!</em></p>
+    </footer>
+  <% else %>
+    <%= render partial: 'layouts/components/footer'%>
+  <% end %>
   </body>
 </html>
