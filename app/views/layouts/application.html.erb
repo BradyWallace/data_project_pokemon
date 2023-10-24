@@ -16,6 +16,8 @@
     <div class="container m-0">
       <h1 class="title is-1">First Generation Pokemon</h1>
       <p><%= link_to "Home", root_path %> | <%= link_to "About", "about" %></p>
+      <br>
+      <%= render partial: "pokemons/form" %>
     </div>
     <hr>
     <%= yield %>
