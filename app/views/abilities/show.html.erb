@@ -1,0 +1,11 @@
+<h2 class="title is-3"><%= @ability.name.capitalize %></h2>
+<article class="message is-dark">
+  <div class="message-header">
+    <p>Ability Information</p>
+  </div>
+  <div class="message-body">
+    <p><%= @ability.description %></p>
+  </div>
+</article>
+<br>
+<p><%= link_to "View all Abilities", abilities_path %></p>

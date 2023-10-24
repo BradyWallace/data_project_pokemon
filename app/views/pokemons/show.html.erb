@@ -1,0 +1,28 @@
+<h2 class="title is-3"><%= @pokemon.name %></h2>
+<h3 class="title is-5">Pokedex entry #<%= @pokemon.dex %></h3>
+
+<article class="message is-dark">
+  <div class="message-header">
+    <p>Pokemon Information</p>
+  </div>
+  <div class="message-body">
+    <p><b>Types:</b></p>
+    <ul>
+      <% @pokemon.types.each do |type| %>
+        <li>
+          <%= link_to type.name.capitalize, type %>
+        </li>
+      <% end %>
+    </ul>
+    <br>
+    <p><b>Abilities:</b></p>
+    <ul>
+      <% @pokemon.abilities.each do |ability| %>
+        <li>
+          <%= link_to ability.name.capitalize, ability %>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</article>
+<p><%= link_to "View all Pokemon", pokemons_path %></p>

@@ -1,0 +1,8 @@
+<h2 class="title is-3">Generation 1 Pokemon</h2>
+<ol class="ml-5">
+  <% @pokemons.each do |pokemon| %>
+    <li>
+      <%= link_to pokemon.name, pokemon %>
+    </li>
+  <% end %>
+</ol>

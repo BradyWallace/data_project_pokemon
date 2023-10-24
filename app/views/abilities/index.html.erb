@@ -1,0 +1,8 @@
+<h2 class="title is-3">Pokemon Abilities</h2>
+<ol class="ml-5">
+  <% @abilities.each do |ability| %>
+    <li>
+      <%= link_to ability.name.capitalize, ability %>
+    </li>
+  <% end %>
+</ol>

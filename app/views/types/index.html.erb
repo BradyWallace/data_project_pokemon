@@ -1,0 +1,8 @@
+<h2 class="title is-3">Pokemon Types</h2>
+<ol class="ml-5">
+  <% @types.each do |type| %>
+    <li>
+      <%= link_to type.name.capitalize, type %>
+    </li>
+  <% end %>
+</ol>

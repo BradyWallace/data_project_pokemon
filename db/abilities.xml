@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <row>
+    <name>Adaptability</name>
+    <description>The Pokemon&#x27;s STAB modifier becomes 2x.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Aerilate</name>
+    <description>Turns all of this Pokemon&#x27;s Normal-typed attacks into Flying-type and deals 1.3x damage. Does not affect Hidden Power.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Aftermath</name>
+    <description>Deals 25% damage when KOed by contact damage.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Air Lock</name>
+    <description>Blocks the effects of weather.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Analytic</name>
+    <description>Raises the power of all moves by 30% if the wielder moves last.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Anger Point</name>
+    <description>Raises Attack to +6 if struck by a critical hit.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Anticipation</name>
+    <description>Alerts the Pokemon of certain dangerous moves.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Arena Trap</name>
+    <description>Prevents switching and increases wild encounter rate.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Aroma Veil</name>
+    <description>Protects allies from attacks that limit their move choices.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Aura Break</name>
+    <description>Reverses the effects of Dark Aura and Fairy Aura.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Bad Dreams</name>
+    <description>Deals 12.5% damage to sleeping opponents per turn.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Battle Armor</name>
+    <description>Prevents critical hits.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Big Pecks</name>
+    <description>The wielder&#x27;s Defense cannot be lowered.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Blaze</name>
+    <description>Boosts power of Fire-type moves 50% when at 1/3 of max HP or less.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Bulletproof</name>
+    <description>This Pokemon is protected from some Ball and Bomb moves.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Cheek Pouch</name>
+    <description>Increases HP when this Pokemon consumes a berry.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Chlorophyll</name>
+    <description>Speed doubles in sun.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Clear Body</name>
+    <description>Stops the enemy from lowering this Pokemon&#x27;s stats.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Cloud Nine</name>
+    <description>Blocks the effects of weather.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Color Change</name>
+    <description>Changes user&#x27;s type to type of last attack that hit this Pokemon.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Competitive</name>
+    <description>Raises the user&#x27;s Special Attack stat by two stages when a stat is lowered, including the Special Attack stat. This does not include self-induced stat drops like those from Close Combat.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Compound Eyes</name>
+    <description>Raises accuracy by 30% and increases the probability of wild Pokemon holding items.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Contrary</name>
+    <description>The wielder&#x27;s stat changes are reversed.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Cursed Body</name>
+    <description>The wielder has a 30% chance to disable any move that hits it.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Cute Charm</name>
+    <description>Can infatuate Pokemon of opposite gender when struck and increases their wild encounter rate.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Damp</name>
+    <description>Prevents the use of Self-Destruct or Explosion.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Dark Aura</name>
+    <description>Increases the power of all Dark-type moves in battle to 1.3x.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Defeatist</name>
+    <description>Halves the wielder&#x27;s Attack and Special Attack if its HP drops below 50%.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Defiant</name>
+    <description>Boosts Attack by two stages for every stat drop.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Delta Stream</name>
+    <description>Summons Strong Winds until Pokemon leaves battle. Electric/Ice/Rock moves do half damage and Weather changing moves/abilities fail, except for Primordial Sea and Desolate Land.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Desolate Land</name>
+    <description>Summons Heavy Sun until Pokemon leaves battle. Water-type moves and weather changing moves/abilities fail, except for Primordial Sea and Delta Stream.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Download</name>
+    <description>User gets a stat boost depending on its opponent&#x27;s stats.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Drizzle</name>
+    <description>Summons rain.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Drought</name>
+    <description>Summons sun.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Dry Skin</name>
+    <description>User absorbs Water-type attacks and has a weakness to Fire-type moves. Heals in rain and is damaged by sun.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Early Bird</name>
+    <description>Reduces sleep time by 50%.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Effect Spore</name>
+    <description>Induces paralysis, poison, or sleep on contact.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Fairy Aura</name>
+    <description>Increases the power of all Fairy-type moves in battle to 1.3x.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Filter</name>
+    <description>Reduces damage from super effective hits by 1/4.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Flame Body</name>
+    <description>Enemies&#x27; contact moves have a 30% chance to burn them. Halves the amount of steps required to hatch Eggs.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Flare Boost</name>
+    <description>Special Attack is increased by 50% when burned.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Flash Fire</name>
+    <description>Grants immunity to Fire and increases Fire&#x27;s power 50% when hit by a Fire move.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Flower Gift</name>
+    <description>Raises Attack and Special Defense of this Pokemon and its partners in sun.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Flower Veil</name>
+    <description>Prevents lowering of ally Grass-type Pokemon&#x27;s stats.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Forecast</name>
+    <description>Changes type according to weather.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Forewarn</name>
+    <description>Tells which of the opponent&#x27;s moves has the highest Base Power.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Friend Guard</name>
+    <description>Reduces damage done to a teammate by 25%.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Frisk</name>
+    <description>Reveals the foe&#x27;s items.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Fur Coat</name>
+    <description>Halves the damage done to this Pokemon by physical attacks.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Gale Wings</name>
+    <description>This Pokemon&#x27;s Flying-type moves have their priority increased by 1.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Gluttony</name>
+    <description>Consumes pinch Berries at 50% HP or less.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Gooey</name>
+    <description>Contact with this Pokemon decreases the attacker&#x27;s Speed by 1 stage.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Grass Pelt</name>
+    <description>This Pokemon&#x27;s Defense is boosted by 50% in Grassy Terrain</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Guts</name>
+    <description>Attack is increased 50% when afflicted by a non-volatile status.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Harvest</name>
+    <description>After each turn, the wielder may receive the Berry it used at a 50% chance (100% if in sun).</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Healer</name>
+    <description>30% chance to heal an adjacent teammate of a status condition every turn.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Heatproof</name>
+    <description>Reduces Fire damage 50%.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Heavy Metal</name>
+    <description>The wielder&#x27;s weight is doubled.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Honey Gather</name>
+    <description>Adds a chance of finding Honey after each in-game battle.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Huge Power</name>
+    <description>Doubles Attack.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Hustle</name>
+    <description>Physical moves do 50% more damage at the cost of 20% accuracy. Increases wild encounter rate with higher level Pokemon.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Hydration</name>
+    <description>Heals status effects in rain.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Hyper Cutter</name>
+    <description>Prevents the enemy from lowering this Pokemon&#x27;s Attack. Increases Cut&#x27;s area of effect.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Ice Body</name>
+    <description>Heals 1/16 of max HP in hail.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Illuminate</name>
+    <description>Increases wild encounter rate (no effect in battles).</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Illusion</name>
+    <description>The wielder appears as the last Pokemon in the party to the opponent.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Immunity</name>
+    <description>This Pokemon cannot be poisoned.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Imposter</name>
+    <description>The wielder transforms into the opponent when it switches in.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Infiltrator</name>
+    <description>The wielder bypasses the foe&#x27;s Light Screen, Reflect, Mist, Safeguard, and Substitute.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Inner Focus</name>
+    <description>Prevents flinching.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Insomnia</name>
+    <description>Prevents sleep.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Intimidate</name>
+    <description>Lowers the foe&#x27;s Attack by 1 stage. Decreases wild encounter rate.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Iron Barbs</name>
+    <description>Deals 1/8 recoil damage when the opponent makes contact.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Iron Fist</name>
+    <description>Increases the power of punching moves by 20%.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Justified</name>
+    <description>Raises Attack by one stage when hit by a Dark-type move.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Keen Eye</name>
+    <description>Pokemon&#x27;s accuracy cannot be lowered. Opponent&#x27;s evasion boosts are ignored. Decreases wild encounter rate.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Klutz</name>
+    <description>This Pokemon both is unaffected by and will not utilize held items.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Leaf Guard</name>
+    <description>Prevents status effects in sun.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Levitate</name>
+    <description>This Pokemon is immune to Ground-type moves.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Light Metal</name>
+    <description>The wielder&#x27;s weight is halved.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Lightningrod</name>
+    <description>All Electric-type attacks target this Pokemon. Grants immunity to Electric-type moves and boosts Special Attack by 1 stage when hit by an Electric-type move.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Limber</name>
+    <description>Blocks paralysis.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Liquid Ooze</name>
+    <description>Leeching moves cause the enemy to lose HP instead.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Magic Bounce</name>
+    <description>Bounces back certain non-damaging moves.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Magic Guard</name>
+    <description>Prevents indirect damage.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Magician</name>
+    <description>If this Pokemon is not holding an item, it steals the held item of a target it hits with a move.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Magma Armor</name>
+    <description>Cannot be frozen. Halves the amount of steps required to hatch Eggs.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Magnet Pull</name>
+    <description>Prevents Steel-type Pokemon from switching. Increases the chance of encountering a Steel-type Pokemon in the wild.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Marvel Scale</name>
+    <description>Boosts Defense 50% when afflicted by a non-volatile status.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Mega Launcher</name>
+    <description>Boosts the power of Aura and Pulse moves, such as Aura Sphere and Dark Pulse, by 50%.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Minus</name>
+    <description>If allied with a Pokemon with Plus or Minus, its Special Attack increases by 50%.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Mold Breaker</name>
+    <description>Abilities that hinder attacks are nullified.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Moody</name>
+    <description>A random stat is lowered by 1 stage and another is boosted by 2 stages every turn.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Motor Drive</name>
+    <description>Grants immunity to Electric-type moves and boosts Speed by 1 stage when hit by a Electric-type move.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Moxie</name>
+    <description>Boosts Attack by 1 stage if the wielder knocks out another Pokemon.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Multiscale</name>
+    <description>Reduces damage by 50% if the wielder is at full health.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Multitype</name>
+    <description>Type changes depending on the held plate. Prevents item loss.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Mummy</name>
+    <description>The opponent&#x27;s ability becomes Mummy when it hits the wielder with a contact move.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Natural Cure</name>
+    <description>Cures status on switching out.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>No Guard</name>
+    <description>All attacks used by and used on this Pokemon will never miss.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Normalize</name>
+    <description>All moves used by this Pokemon become Normal-type.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Oblivious</name>
+    <description>Grants immunity to infatuation, Captivate, and Taunt.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Overcoat</name>
+    <description>Grants immunity to damage from weather effects and powder moves.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Overgrow</name>
+    <description>Raises the power of Grass-type moves by 50% when at 1/3 HP or less.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Own Tempo</name>
+    <description>Cannot be confused.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Parental Bond</name>
+    <description>Allows the Pokemon to hit twice with the same move in one turn. Second hit has 0.5x base power. Does not affect Status, multihit, self-KO, or spread moves (in doubles).</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Pickpocket</name>
+    <description>The wielder immediately steals an item from an attacker using a contact move.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Pickup</name>
+    <description>If the wielder has no held item, it gets the last item consumed at the end of the turn. Adds a chance of finding an item after each battle.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Pixilate</name>
+    <description>Turns all of this Pokemon&#x27;s Normal-typed attacks into Fairy-type and deals 1.3x damage. Does not affect Hidden Power.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Plus</name>
+    <description>If allied with a Pokemon with Plus or Minus, its Special Attack increases by 50%.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Poison Heal</name>
+    <description>Heals 1/8 of max HP per turn when poisoned.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Poison Point</name>
+    <description>Enemies&#x27; contact moves have a 30% chance of poisoning them.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Poison Touch</name>
+    <description>The wielder&#x27;s contact moves gain a 30% chance to poison the opponent.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Prankster</name>
+    <description>Non-damaging moves have their priority increased by one level.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Pressure</name>
+    <description>Enemy attacks lose 1 extra PP. Increases wild encounter rate.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Primordial Sea</name>
+    <description>Summons Heavy Rain until Pokemon leaves battle. Fire-type moves and weather changing moves/abilities fail, except for Desolate Land and Delta Stream.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Protean</name>
+    <description>Right before this Pokemon uses a move, it changes its type to match that move. Hidden Power is interpreted as its Hidden Power type, rather than Normal.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Pure Power</name>
+    <description>Doubles Attack.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Quick Feet</name>
+    <description>Increases Speed by 50% when afflicted with a status condition.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Rain Dish</name>
+    <description>Heals 1/16 of max HP in rain.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Rattled</name>
+    <description>Raises Speed one stage when hit by a Bug-, Dark-, or Ghost-type move.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Reckless</name>
+    <description>Increases the power of recoil moves by 20%.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Refrigerate</name>
+    <description>Turns all of this Pokemon&#x27;s Normal-typed attacks into Ice-typed and deal 1.3x damage. Does not affect Hidden Power.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Regenerator</name>
+    <description>Wielder heals 1/3 of its maximum HP on switching out.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Rivalry</name>
+    <description>Raises move power by 25% if the opponent has the same gender, and reduces by 25% if the opponent has the opposite gender. Genderless Pokemon do not affect this ability.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Rock Head</name>
+    <description>Negates recoil from recoil moves.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Rough Skin</name>
+    <description>Deals 1/8 recoil damage when the opponent makes contact.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Run Away</name>
+    <description>Increases the chance of successfully escaping battle with a wild Pokemon.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Sand Force</name>
+    <description>Increases power of Ground-, Rock-, and Steel-type attacks by 30% in a sandstorm.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Sand Rush</name>
+    <description>Speed doubles in sandstorm.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Sand Stream</name>
+    <description>Summons sandstorm.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Sand Veil</name>
+    <description>Evasion increases by 20% in a sandstorm.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Sap Sipper</name>
+    <description>Grants immunity to Grass-type moves and boosts Attack by 1 stage when hit by a Grass-type move.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Scrappy</name>
+    <description>Can hit Ghost-types with Fighting- and Normal-type moves.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Serene Grace</name>
+    <description>This Pokemon&#x27;s secondary effect chances are doubled.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Shadow Tag</name>
+    <description>Traps opponents. Does not affect Pokemon with Shadow Tag.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Shed Skin</name>
+    <description>30% chance to heal status.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Sheer Force</name>
+    <description>Increases power of moves with secondary effects by 30%, but removes the effects.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Shell Armor</name>
+    <description>Prevents critical hits.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Shield Dust</name>
+    <description>Secondary effects won&#x27;t occur.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Simple</name>
+    <description>Doubles the effect of stat boosts and drops.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Skill Link</name>
+    <description>Multi-hit moves will always hit the maximum number of times.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Slow Start</name>
+    <description>Attack and Speed are halved for 5 turns.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Sniper</name>
+    <description>Critical hits do 2.25x damage instead of 1.5x.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Snow Cloak</name>
+    <description>Evasion increases by 20% in hail.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Snow Warning</name>
+    <description>Summons hail.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Solar Power</name>
+    <description>Loses 10% HP in sun each turn. Special Attack increases by 50%.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Solid Rock</name>
+    <description>Reduces damage from super effective hits by 1/4.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Soundproof</name>
+    <description>Unaffected by sound moves.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Speed Boost</name>
+    <description>Speed raises at end of turn.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Stall</name>
+    <description>This Pokemon moves last.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Stance Change</name>
+    <description>Only affects Aegislash. If this Pokemon uses a Physical or Special move, it changes to Blade forme. If this Pokemon uses King&#x27;s Shield, it changes to Shield forme.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Static</name>
+    <description>Enemies&#x27; contact moves can paralyze them.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Steadfast</name>
+    <description>Speed is boosted one stage when flinched.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Stench</name>
+    <description>Adds a 10% flinch chance for moves that do not have one. Decreases wild encounter rate.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Sticky Hold</name>
+    <description>This Pokemon&#x27;s item cannot be removed. Increases the chance of encountering Pokemon while fishing.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Storm Drain</name>
+    <description>All Water-type attacks target this Pokemon. Grants immunity to Water-type moves and boosts Special Attack by 1 stage when hit by a Water-type move.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Strong Jaw</name>
+    <description>This Pokemon receives a 50% power boost for jaw attacks such as Bite and Crunch.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Sturdy</name>
+    <description>The wielder cannot be KO&#x27;d in one hit. OHKO moves will fail.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Suction Cups</name>
+    <description>Cannot be forced to switch. Increases chance of encountering Pokemon while fishing.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Super Luck</name>
+    <description>Critical hit rate increases one stage.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Swarm</name>
+    <description>Boosts power of Bug-type moves by 50% when at 1/3 HP or less.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Sweet Veil</name>
+    <description>Prevents allies from being put to Sleep.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Swift Swim</name>
+    <description>Speed doubles in rain.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Symbiosis</name>
+    <description>This Pokemon immediately passes its item to an ally after their item is consumed.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Synchronize</name>
+    <description>When statused, the enemy is also statused. Can pass nature to wild Pokemon.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Tangled Feet</name>
+    <description>Evasion increases when confused.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Technician</name>
+    <description>Increases power of moves with 60 base power or less by 50%.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Telepathy</name>
+    <description>Does not take damage from allies&#x27; attacks.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Teravolt</name>
+    <description>Abilities that hinder attacks are nullified.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Thick Fat</name>
+    <description>Halves Ice- and Fire-type damage.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Tinted Lens</name>
+    <description>Doubles damage on resisted hits.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Torrent</name>
+    <description>Boosts power of Water-type moves by 50% when at 1/3 HP or less.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Tough Claws</name>
+    <description>This Pokemon&#x27;s contact attacks do 1.33x damage.</description>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Toxic Boost</name>
+    <description>Attack is increased by 50% when poisoned.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Trace</name>
+    <description>Copies foe&#x27;s ability.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Truant</name>
+    <description>This Pokemon does nothing every other turn.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Turboblaze</name>
+    <description>Abilities that hinder attacks are nullified.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Unaware</name>
+    <description>Ignores stat boosts and debuffs on other Pokemon.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Unburden</name>
+    <description>Speed increases when an item is used or lost.</description>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Unnerve</name>
+    <description>Prevents the foe from consuming its held Berry item.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Victory Star</name>
+    <description>Increases the accuracy of the wielder and allies on its side of the field by 10%.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Vital Spirit</name>
+    <description>Prevents sleep. Increases wild encounters with higher level Pokemon.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Volt Absorb</name>
+    <description>Heals 25% HP when hit by an Electric-type attack.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Water Absorb</name>
+    <description>Heals 25% HP when hit by a Water-type attack.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Water Veil</name>
+    <description>Prevents burn.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Weak Armor</name>
+    <description>Boosts Speed by 1 stage and lowers Defense by 1 stage when hit by a Physical move.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>White Smoke</name>
+    <description>Prevents the enemy from lowering this Pokemon&#x27;s stats and decreases wild encounter rate.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Wonder Guard</name>
+    <description>Only super effective attacks harm this Pokemon.</description>
+    <genfamily>RS</genfamily>
+    <genfamily>DP</genfamily>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Wonder Skin</name>
+    <description>Reduces the accuracy of a status move to 50%.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+  <row>
+    <name>Zen Mode</name>
+    <description>The wielder changes forme when below 50% of its max HP.</description>
+    <genfamily>BW</genfamily>
+    <genfamily>XY</genfamily>
+  </row>
+</root>
