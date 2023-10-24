@@ -1,5 +1,5 @@
 <p class="mb-5">
-  Pokemons found when searching for: <%= params[:keywords] %>
+  Pokemons found with names containing: "<%= params[:keywords] %>"
 </p>
 <ul class="ml-5">
   <% @pokemons.each do |pokemon| %>
